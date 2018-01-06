@@ -71,7 +71,6 @@ public class WordSquare {
         }
     }
 
-    //TODO: add concurrency :/
     private void findSquares(int row, int col, Trie.Node[] rows) {
         if (row == rows.length) {
             // we got to the end of the rows, must be a wordsquare, add it to results
